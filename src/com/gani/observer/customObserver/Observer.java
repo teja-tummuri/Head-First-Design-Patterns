@@ -1,4 +1,4 @@
-package com.gani.observer;
+package com.gani.observer.customObserver;
 
 /**
  * Created by Gani on 7/29/17.

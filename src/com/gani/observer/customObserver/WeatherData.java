@@ -1,4 +1,4 @@
-package com.gani.observer;
+package com.gani.observer.customObserver;
 
 import java.util.ArrayList;
 import java.util.List;
