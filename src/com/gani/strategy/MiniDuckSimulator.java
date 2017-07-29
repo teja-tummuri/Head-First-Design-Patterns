@@ -1,4 +1,4 @@
-package com.gani;
+package com.gani.strategy;
 
 import com.gani.strategy.*;
 
