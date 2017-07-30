@@ -5,8 +5,6 @@ package com.gani.decorator;
  */
 public class SteamedMilk extends CondimentDecorator {
 
-    Beverage beverage;
-
     public SteamedMilk(Beverage beverage) {
         this.beverage = beverage;
     }
