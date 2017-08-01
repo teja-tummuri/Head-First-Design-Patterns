@@ -8,12 +8,12 @@ import java.util.List;
  */
 public abstract class Pizza {
 
-    String name;
-    String dough;
-    String sauce;
-    List<String> toppings = new ArrayList<>();
+    protected String name;
+    protected String dough;
+    protected String sauce;
+    protected List<String> toppings = new ArrayList<>();
 
-    void prepare(){
+    public void prepare(){
         System.out.println("Preparing "+name+"...");
         System.out.println("Tossing dough...");
         System.out.println("Adding "+sauce+"...");
@@ -21,13 +21,15 @@ public abstract class Pizza {
         toppings.forEach(topping-> System.out.println(" "+topping));
 
     }
-    void bake(){
+    public void bake(){
         System.out.println("Bake for 20 min at 400");
     }
-    void cut(){
+
+    public void cut(){
         System.out.println("Cutting pizza into slices");
     }
-    void box(){
+
+    public void box(){
         System.out.println("Putting the pizza in the box");
     }
 
