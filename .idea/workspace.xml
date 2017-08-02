@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9663a1ad-0666-4ae6-9327-b4e5dcf8c723" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/AbstractFactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/ChicagoPizzaIngredientFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/NYPizzaIngredientFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/NYPizzaStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/PizzaIngredientFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/PizzaStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/cheese/Cheese.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/cheese/MozzarellaCheese.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/cheese/ReggianoCheese.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/clams/Clams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/clams/FreshClams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/clams/FrozenClams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/dough/Dough.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/dough/ThickCrustDough.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/dough/ThinCrustDough.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pepperoni/Pepperoni.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pepperoni/SlicedPepperoni.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/CheesePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/ClamPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/PepperoniPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/Pizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/VeggiePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/sauce/MarinaraSauce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/sauce/PlumTomatoSauce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/sauce/Sauce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/veggies/BlackOlives.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/veggies/EggPlant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/veggies/Garlic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/veggies/Mushroom.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/veggies/Onion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/veggies/RedPepper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/veggies/Spinach.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/veggies/Veggies.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gani/singleton/Singleton.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,106 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PizzaStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/PizzaStore.java">
+      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gani/singleton/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NYStylePizzaStore.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStylePizzaStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NYStyleVeggiePizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStyleVeggiePizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NYStyleCheesePizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStyleCheesePizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="13" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NYPizzaStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/NYPizzaStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VeggiePizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/VeggiePizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/Pizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClamPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/ClamPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/AbstractFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PizzaStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/PizzaStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -195,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gani/factory/factoryMethod/NYStylePepperoniPizza.java" />
         <option value="$PROJECT_DIR$/src/com/gani/factory/factoryMethod/NYStyleClamPizza.java" />
         <option value="$PROJECT_DIR$/src/com/gani/factory/factoryMethod/ChicagoStylePizzaStore.java" />
         <option value="$PROJECT_DIR$/src/com/gani/factory/factoryMethod/ChicagoStyleCheesePizza.java" />
@@ -246,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/Pizza.java" />
         <option value="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/NYPizzaStore.java" />
         <option value="$PROJECT_DIR$/src/com/gani/factory/abstractFactory/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gani/singleton/Singleton.java" />
       </list>
     </option>
   </component>
@@ -907,12 +780,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501348140821</updated>
-      <workItem from="1501348142891" duration="33496000" />
+      <workItem from="1501348142891" duration="33834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33496000" />
+    <option name="totallyTimeSpent" value="33834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,6 +798,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -947,7 +821,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4951535" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.49183673" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.49183673" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5081633" order="4" side_tool="true" content_ui="tabs" />
@@ -1050,14 +924,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStyleClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStylePepperoniPizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1448,6 +1314,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStylePizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStyleVeggiePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStyleCheesePizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1456,17 +1346,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/PizzaStore.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/NYPizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/VeggiePizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="165">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="e#307#308#0" expanded="true" />
@@ -1477,7 +1367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/pizzas/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="318">
           <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1509,26 +1399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gani/factory/abstractFactory/NYPizzaStore.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gani/singleton/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStyleVeggiePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gani/factory/factoryMethod/newyork/NYStylePizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
         </state>
       </provider>
