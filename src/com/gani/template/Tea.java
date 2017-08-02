@@ -3,30 +3,19 @@ package com.gani.template;
 /**
  * Created by Gani on 8/2/17.
  */
-public class Tea {
+public class Tea extends CaffeineBeverage{
 
-    void prepareRecipe(){
-        boilWater();
-        steepTea();
-        pourToCup();
-        addLemon();
+    @Override
+    void addCondiments() {
+        System.out.println("Adding lemon");
     }
 
-    public void boilWater(){
-
+    @Override
+    void brew() {
+        System.out.println("Steeping the tea");
     }
 
-    public void steepTea(){
 
-    }
-
-    public void pourToCup(){
-
-    }
-
-    public void addLemon(){
-
-    }
 
 }
 

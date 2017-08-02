@@ -3,28 +3,16 @@ package com.gani.template;
 /**
  * Created by Gani on 8/2/17.
  */
-public class Coffee {
+public class Coffee extends CaffeineBeverage{
 
-    void prepareRecipe(){
-        boilWater();
-        brewCoffee();
-        pourToCup();
-        addSugarAndMilk();
+    @Override
+    void addCondiments() {
+        System.out.println("Adding Sugar and Milk");
     }
 
-    public void boilWater(){
-
+    @Override
+    void brew() {
+        System.out.println("Brewing coffee");
     }
 
-    public void brewCoffee(){
-
-    }
-
-    public void pourToCup(){
-
-    }
-
-    public void addSugarAndMilk(){
-
-    }
 }

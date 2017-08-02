@@ -5,7 +5,21 @@ package com.gani.template;
  */
 public abstract class CaffeineBeverage {
 
-    abstract void prepareRecipe();
-    abstract void boilWater();
-    abstract void pourToCup();
+    final void prepareRecipe(){
+     boilWater();
+     brew();
+     pourToCup();
+     addCondiments();
+    }
+
+    abstract void addCondiments();
+
+    abstract void brew();
+
+    void boilWater(){
+        System.out.println("Boiling Water");
+     }
+    void pourToCup(){
+        System.out.println("Pouring into cup");
+    }
 }
