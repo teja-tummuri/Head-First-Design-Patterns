@@ -5,15 +5,11 @@ package com.gani.singleton;
  */
 public class Singleton {
 
-    private static Singleton uniqueInstance;
+    private static Singleton uniqueInstance = new Singleton();
 
     private Singleton(){}
 
-    public static synchronized Singleton getInstance(){
-
-        if(uniqueInstance == null)
-            uniqueInstance = new Singleton();
-
+    public static Singleton getInstance(){
         return uniqueInstance;
     }
 }
