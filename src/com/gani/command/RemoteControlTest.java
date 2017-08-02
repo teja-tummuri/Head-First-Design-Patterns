@@ -1,23 +1,24 @@
 package com.gani.command;
 
 /**
- * Created by Gani on 8/1/17.
+ * Created by Gani on 8/2/17.
  */
 public class RemoteControlTest {
 
     public static void main(String[] args) {
-        SimpleRemoteControl remote = new SimpleRemoteControl();
+
+        RemoteControl remote = new RemoteControl();
 
         Light light = new Light();
-        GarageDoor garageDoor = new GarageDoor();
-
         LightOnCommand lightOn = new LightOnCommand(light);
-        GarageDoorOpenCommand garageOpen = new GarageDoorOpenCommand(garageDoor);
+        LightOffCommand lightOff = new LightOffCommand(light);
+        remote.setCommand(0,lightOn,lightOff);
 
-        remote.setCommand(lightOn);
-        remote.buttonWasPressed();
-        remote.setCommand(garageOpen);
-        remote.buttonWasPressed();
 
+
+        System.out.println(remote.toString());
+
+        remote.onButtonPressed(0);
+        remote.offButtonPressed(1);
     }
 }
