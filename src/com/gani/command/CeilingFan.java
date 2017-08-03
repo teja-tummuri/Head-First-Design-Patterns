@@ -5,12 +5,18 @@ package com.gani.command;
  */
 public class CeilingFan {
 
+    String location="";
+
+    public CeilingFan(String location) {
+        this.location = location;
+    }
+
     public void off(){
-        System.out.println("Fan is OFF");
+        System.out.println(location+" Fan is OFF");
     }
 
     public void on(){
-        System.out.println("Fan is ON");
+        System.out.println(location+" Fan is ON");
     }
 
 

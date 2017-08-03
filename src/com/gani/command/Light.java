@@ -5,12 +5,18 @@ package com.gani.command;
  */
 public class Light {
 
+    String location="";
+
+    public Light(String location) {
+        this.location = location;
+    }
+
     public void on() {
-        System.out.println("Light is ON");
+        System.out.println(location+" Light is ON");
     }
 
     public void off() {
-        System.out.println("Light is OFF");
+        System.out.println(location+" Light is OFF");
     }
 
 }
