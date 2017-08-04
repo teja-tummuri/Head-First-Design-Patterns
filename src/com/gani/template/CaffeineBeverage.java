@@ -16,10 +16,10 @@ public abstract class CaffeineBeverage {
 
     abstract void brew();
 
-    void boilWater(){
+    final void boilWater(){
         System.out.println("Boiling Water");
      }
-    void pourToCup(){
+    final void pourToCup(){
         System.out.println("Pouring into cup");
     }
 }
