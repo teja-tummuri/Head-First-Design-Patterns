@@ -9,7 +9,6 @@ public class GumballMachineTest {
 
     public static void main(String[] args) {
         GumballMachineRemoteImpl gumballMachine = null;
-        int count;
 
         try{
             gumballMachine = new GumballMachineRemoteImpl("myAdda",10);

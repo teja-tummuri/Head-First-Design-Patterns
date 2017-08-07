@@ -55,7 +55,6 @@ public class GumballMachine {
         System.out.println("Current total is "+count);
     }
 
-
     public void setState(State state) {
         this.state = state;
     }
