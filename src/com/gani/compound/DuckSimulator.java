@@ -8,16 +8,19 @@ public class DuckSimulator {
 
     public static void main(String[] args) {
         DuckSimulator simulator = new DuckSimulator();
-        simulator.simulate();
+        AbstractDuckFactory duckFactory = new CountingDuckFactory();
+        simulator.simulate(duckFactory);
     }
 
 
-    private void simulate() {
+    private void simulate(AbstractDuckFactory duckFactory) {
 
-        Quackable mallard = new QuackCounter(new MallardDuck());
-        Quackable redHead = new QuackCounter(new RedHeadDuck());
-        Quackable rubber = new QuackCounter(new RubberDuck());
-        Quackable duckCall = new QuackCounter(new DuckCall());
+
+
+        Quackable mallard = duckFactory.createMallardDuck();
+        Quackable redHead = duckFactory.createRedHeadDuck();
+        Quackable rubber = duckFactory.createRubberDuck();
+        Quackable duckCall = duckFactory.createDuckCall();
         Quackable gooseDuck = new GooseAdapter(new Goose());
 
         System.out.println("Duck Simulator");
